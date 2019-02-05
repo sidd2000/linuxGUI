@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> Calendar</title>
+</head>
+
+
+<body>
+<div name="page">
+<h1> Please specify the month and year of the calendar </h1><br/>
+<h2> Not specifying anything opens the calendar for current month</h2><br/>
+<h2> Not specifying the month opens the calendar opens the calendar for the whole year that is specified</h2><br/>
+
+<h2> Month and Year entries are only accepted in Numerical form</h2><br/>
+<form method="POST" action="/cgi-bin/LinuxCGI/cal.cgi">
+Month:<input type="text" name="month" placeholder="Enter month"><br/>
+Year:<input type="text" name="year" placeholder="Enter year"><br/>
+<input type="submit" value="check">
+</form>
+</div>
+<div name="foot">
+<a href="home.html"> Back to Home Page</a><br/>
+</div>
+</body>
+
+</html>
+
