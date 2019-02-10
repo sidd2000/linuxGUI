@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> Adding user</title>
+</head>
+
+
+<body>
+<div name="page">
+<h2> Please enter the name of the user you want to create alongwith the password you want to give to the user</h2><br/>
+<h2> if you leave the password blank, it will not need a password to be opened</h2><br/>
+<form method="POST" action="/cgi-bin/LinuxCGI/useradd.cgi">
+
+Enter username:<input type="text" name="uname" placeholder="Enter name">
+Enter password:<input type="password" name="upass" placeholder="Enter password">
+
+<input type="submit" value="confirm">
+</form>
+</div>
+<div name="foot">
+<a href="home.html"> Back to Home Page</a><br/>
+</div>
+</body>
+

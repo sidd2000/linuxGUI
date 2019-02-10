@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Checking hidden files</title>
+</head>
+
+
+<body>
+<div name="page">
+<h2> Please give the absolute path of the directoy you want to view hidden files, separated by '/'</h2><br/>
+<h2> if you leave it blank,it will show hidden files in the current directory you're working on</h2>
+<form method="POST" action="/cgi-bin/LinuxCGI/hidden.cgi">
+
+Enter path:<input type="text" name="directory" placeholder="Enter path">
+
+<input type="submit" value="check">
+</form>
+</div>
+<div name="foot">
+<a href="home.html"> Back to Home Page</a><br/>
+</div>
+</body>
+</html>
